@@ -1,5 +1,5 @@
 This is simple project that uses the freeRTOS kernel to blink LEDs on the board.
-The hard part was integrating the kernel with the stm32f4 firmware.
+It can be used as a template. The hard part was integrating the kernel with the stm32f4 firmware.
 
 ```
 make clean
