@@ -1,4 +1,5 @@
-The goal here is to enable PWM on stm32f4. This project has four tasks, each drives a LED using different channels of TIMER4 as a PWM source. The tasks are synchronized by a binary semaphore such that the LEDs 'fade in and out' one after the other instead doing so together.
+This is simple project that uses the freeRTOS kernel to blink LEDs on the board.
+It can be used as a template. The hard part was integrating the kernel with the stm32f4 firmware.
 
 ```
 make clean
